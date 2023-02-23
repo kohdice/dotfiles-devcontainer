@@ -6,9 +6,9 @@ alias mv='mv -i'
 
 alias cl='clear'
 
-alias ..2='../..'
-alias ..3='../../..'
-alias ..4='../../../../'
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+alias ..4='cd ../../../../'
 
 # ls
 export LS_OPTIONS='--color=auto'
