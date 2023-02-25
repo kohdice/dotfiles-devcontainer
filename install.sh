@@ -13,7 +13,7 @@ ln -fs ~/dotfiles/.bashrc .
 # Neovim
 mkdir -p ~/.config
 
-ln -fs ~/dotfiles/nvim ~/.config/
+cp -r ~/dotfiles/nvim ~/.config/
 
 #Packer
 git clone --depth 1 https://github.com/wbthomason/packer.nvim \
