@@ -9,4 +9,6 @@ curl -o .git-prompt.sh \
 
 ln -fs ~/dotfiles/.bashrc .
 
-source ~/.bashrc
+mkdir -p ~/.config
+
+ln -fs ~/dotfiles/nvim ~/.config/

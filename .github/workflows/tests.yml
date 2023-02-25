@@ -1,0 +1,18 @@
+name: Continuous Integration of dotfiles-devcontainer installation
+
+run-name: ${{ github.actor }} is testing out dotfiles-devcontainer installation
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+    - name: Test to install dotfiles
+      run: ./install.sh
